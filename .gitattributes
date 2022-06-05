@@ -1,0 +1,19 @@
+* text=auto
+
+# Source files
+*.in text eol=lf
+*.md text eol=crlf
+*.py text eol=lf
+*.txt text eol=lf
+
+# All project files that are needed on all platforms
+# should be LF by default when commited.
+.git* text eol=lf
+.editorconfig text eol=lf
+LICENSE text eol=lf
+
+# Other 'windows-specific' files
+*.bat text eol=crlf
+
+# Posix specific files
+*.sh text eol=lf

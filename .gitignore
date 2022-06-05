@@ -1,0 +1,11 @@
+# Ignore the projects folders and the metadata
+.idea/
+.vs/
+.venv/
+tmp/
+
+# Generated files are bad.
+*.pyc
+*__pycache__*
+.DS_Store
+Thumbs.db
